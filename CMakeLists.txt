@@ -15,7 +15,7 @@ project(Fluidos_LB
 add_executable(Project code.cpp)
 
 # Set the name of executable
-set_target_properties(Project PROPERTIES OUTPUT_NAME "x.code1")
+set_target_properties(Project PROPERTIES OUTPUT_NAME "x.code")
 
 # Add the dir of the headers
 include_directories(${CMAKE_SOURCE_DIR}/inc)
